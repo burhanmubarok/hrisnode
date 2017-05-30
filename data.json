@@ -1,9 +1,10 @@
 {
   "name": "HRIS",
-  "children": [
-    {
-      "name": "Organization Structure",
-      "children": [
+  "children": [{
+      "name": "Organization",
+      "children": [{
+          "name": "Company"
+        },
         {
           "name": "Policy"
         },
@@ -15,46 +16,78 @@
         },
         {
           "name": "Report",
-          "children":
-          [
-            {"name": "Structure"},{"name": "Cost Center"},{"name": "Job Family"},{"name": "Job Title"},{"name": "Grade"},{"name": "Position"}
-          ]
+          "children": [{
+            "name": "Structure"
+          }, {
+            "name": "Cost Center"
+          }, {
+            "name": "Job Family"
+          }, {
+            "name": "Job Title"
+          }, {
+            "name": "Grade"
+          }, {
+            "name": "Position"
+          }]
         }
       ]
     },
     {
       "name": "Employee",
-      "children":
-      [
-        {"name": "Information"},{"name": "Request"},{"name": "Letter"},{"name": "Report"}
-      ]
+      "children": [{
+        "name": "Information"
+      }, {
+        "name": "Request"
+      }, {
+        "name": "Letter"
+      }, {
+        "name": "Report"
+      }]
     },
     {
-      "name": "Time Attendance",
-      "children":
-      [
-        {"name": "Entry"},
-        {"name": "Attendance Data"},
-        {"name": "Time Sheet"},
-        {"name": "Correction Request"},
-        {"name": "Shifting"},
-        {"name": "Leave",
-          "children":
-          [
-            {"name": "Request"},{"name": "Balance"},{"name": "Approval"}
-          ]
+      "name": "Times",
+      "children": [{
+          "name": "Entry"
         },
-        {"name": "Overtime",
-          "children":
-          [
-            {"name": "Request"},{"name": "Approval"}
-          ]
+        {
+          "name": "Attendance Data"
         },
-        {"name": "On Duty",
-          "children":
-          [
-            {"name": "Request"},{"name": "Declaration"},{"name": "Approval"}
-          ]
+        {
+          "name": "Time Sheet"
+        },
+        {
+          "name": "Correction Request"
+        },
+        {
+          "name": "Shifting"
+        },
+        {
+          "name": "Leave",
+          "children": [{
+            "name": "Request"
+          }, {
+            "name": "Balance"
+          }, {
+            "name": "Approval"
+          }]
+        },
+        {
+          "name": "Overtime",
+          "children": [{
+            "name": "Request"
+          }, {
+            "name": "Approval"
+          }]
+        },
+        {
+          "name": "On Duty",
+          "children": [{
+            "name": "Request"
+          }, {
+            "name": "Declaration"
+          }, {
+            "name": "Approval"
+          }]
         },
         {
           "name": "Report"
@@ -63,65 +96,69 @@
     },
     {
       "name": "Reimbursement",
-      "children":
-          [
-            {"name": "Request"},{"name": "Balance"},{"name": "Report"}
-          ]
+      "children": [{
+        "name": "Request"
+      }, {
+        "name": "Balance"
+      }, {
+        "name": "Report"
+      }]
     },
     {
       "name": "Loan",
-      "children":
-          [
-            {"name": "Request"},{"name": "Balance"},{"name": "Report"}
-          ]
+      "children": [{
+        "name": "Request"
+      }, {
+        "name": "Balance"
+      }, {
+        "name": "Report"
+      }]
     },
     {
       "name": "Payroll",
-      "children":
-          [
-            {"name": "History"},
-            {"name": "Process",
-              "children":
-              [
-                {"name": "Attendance",
-                "children":
-                [
-                  {"name": "Overtime",
-                      "children":
-                  [
-                    {"name": "Leave",
-                    "children":
-                    [
-                      {"name": "Reimbursement"}
-                    ]
-                  }
-                  ]
-                  }
-                ]
-              }
-              ]
-            },
-            {"name": "Setting",
-              "children":
-              [
-                {"name": "Period"},{"name": "Component"},{"name": "Variables"},{"name": "Tax"}
-              ]
-            },
-            {"name": "Report"}
-          ]
+      "children": [{
+          "name": "History"
+        },
+        {
+          "name": "Process",
+          "children": [{
+            "name": "Attendance",
+            "children": [{
+              "name": "Overtime",
+              "children": [{
+                "name": "Leave",
+                "children": [{
+                  "name": "Reimbursement"
+                }]
+              }]
+            }]
+          }]
+        },
+        {
+          "name": "Setting",
+          "children": [{
+            "name": "Period"
+          }, {
+            "name": "Component"
+          }, {
+            "name": "Variables"
+          }, {
+            "name": "Tax"
+          }]
+        },
+        {
+          "name": "Report"
+        }
+      ]
     },
     {
       "name": "Recruitment",
-      "children":
-      [
-        {
+      "children": [{
           "name": "Internal"
         },
         {
           "name": "External",
-          "children":
-          [
-            {
+          "children": [{
               "name": "LinkedIn"
             },
             {
@@ -139,102 +176,168 @@
     },
     {
       "name": "Training",
-      "children":
-      [
-        {"name": "History/Request"},
-        {"name": "Setting",
-        "children":
-        [
-          {"name": "Internal",
-          "children":
-          [
-            {"name": "Catalog"},
-            {"name": "Courses"},
-            {"name": "Content"},
-            {"name": "Budget"},
-            {"name": "Place"},
-            {"name": "Time"}
+      "children": [{
+          "name": "History/Request"
+        },
+        {
+          "name": "Setting",
+          "children": [{
+              "name": "Internal",
+              "children": [{
+                  "name": "Catalog"
+                },
+                {
+                  "name": "Courses"
+                },
+                {
+                  "name": "Content"
+                },
+                {
+                  "name": "Budget"
+                },
+                {
+                  "name": "Place"
+                },
+                {
+                  "name": "Time"
+                }
+              ]
+            },
+            {
+              "name": "External",
+              "children": [{
+                  "name": "Budget"
+                },
+                {
+                  "name": "Place"
+                },
+                {
+                  "name": "Time"
+                }
+              ]
+            }
           ]
         },
-          {"name": "External",
-          "children":
-          [
-            {"name": "Budget"},
-            {"name": "Place"},
-            {"name": "Time"}
-          ]
+        {
+          "name": "Report"
         }
-        ]
-        },
-        {"name": "Report"}
       ]
     },
     {
       "name": "Performance",
-      "children":
-      [
-        {"name": "History/Request"},
-        {"name": "Succession Planning"},
-        {"name": "Setting",
-        "children":
-        [
-          {"name": "xx",
-          "children":
-          [
-            {"name": "xx"},
-            {"name": "xx"},
-            {"name": "xx"},
-            {"name": "xx"},
-            {"name": "xx"},
-            {"name": "xx"}
+      "children": [{
+          "name": "History/Request"
+        },
+        {
+          "name": "Succession Planning"
+        },
+        {
+          "name": "Setting",
+          "children": [{
+              "name": "xx",
+              "children": [{
+                  "name": "xx"
+                },
+                {
+                  "name": "xx"
+                },
+                {
+                  "name": "xx"
+                },
+                {
+                  "name": "xx"
+                },
+                {
+                  "name": "xx"
+                },
+                {
+                  "name": "xx"
+                }
+              ]
+            },
+            {
+              "name": "xx",
+              "children": [{
+                  "name": "xx"
+                },
+                {
+                  "name": "xx"
+                },
+                {
+                  "name": "xx"
+                }
+              ]
+            }
           ]
         },
-          {"name": "xx",
-          "children":
-          [
-            {"name": "xx"},
-            {"name": "xx"},
-            {"name": "xx"}
-          ]
+        {
+          "name": "Report"
         }
-        ]
-        },
-        {"name": "Report"}
       ]
     },
     {
       "name": "Career",
-      "children":
-      [
-        {"name": "Awards"},{"name": "Disciplines"},{"name": "Transition"},{"name": "Report"}
-      ]
+      "children": [{
+        "name": "Awards"
+      }, {
+        "name": "Disciplines"
+      }, {
+        "name": "Transition"
+      }, {
+        "name": "Report"
+      }]
     },
     {
       "name": "Setting",
-      "children":
-      [
-        {
+      "children": [{
           "name": "Modules",
-          "children":
-          [
-            {"name": "Organization"},{"name": "Employee"},{"name": "Recruitment"},{"name": "Training"},{"name": "xx"},{"name": "xx"}
+          "children": [{
+              "name": "Organization",
+              "children": [{
+                  "name": "Name"
+                },
+                {
+                  "name": "Email"
+                },
+                {
+                  "name": "Phone"
+                },
+                {
+                  "name": "Address"
+                }
+              ]
+            },
+            {
+              "name": "Employee"
+            }, {
+              "name": "Recruitment"
+            }, {
+              "name": "Training"
+            }, {
+              "name": "xx"
+            }, {
+              "name": "xx"
+            }
           ]
         },
         {
           "name": "Application",
-          "children":
-          [
-            {"name": "User"},{"name": "Menu Authorization"},{"name": "Data Authorization"}
-          ]
+          "children": [{
+            "name": "User"
+          }, {
+            "name": "Menu Authorization"
+          }, {
+            "name": "Data Authorization"
+          }]
         },
-        {"name": "System"}
+        {
+          "name": "System"
+        }
       ]
     },
     {
       "name": "Help",
-      "children":
-      [
-        {
+      "children": [{
           "name": "User Manual"
         },
         {
