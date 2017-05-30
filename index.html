@@ -23,6 +23,20 @@
 </style>
 
 <body>
+
+	<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyBmCDIqTFYQQXN-sn_WB3jlbhG40NGmCuw",
+			authDomain: "hrisnode.firebaseapp.com",
+			databaseURL: "https://hrisnode.firebaseio.com",
+			projectId: "hrisnode",
+			storageBucket: "hrisnode.appspot.com",
+			messagingSenderId: "806880269200"
+		};
+		firebase.initializeApp(config);
+	</script>
 	<script src="bower_components/d3/d3.min.js"></script>
 	<script>
 		var margin = {
