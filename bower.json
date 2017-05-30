@@ -1,0 +1,28 @@
+{
+  "name": "hrisnodes",
+  "authors": [
+    "burhanmubarok@gmail.com <burhanmubarok@gmail.com>"
+  ],
+  "description": "Example of HRIS Structure using D3",
+  "main": "index.html",
+  "license": "GPLv3",
+  "homepage": "burhanmubarok.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "HRIS",
+    "Structure",
+    "HRIS",
+    "Nodes",
+    "HRIS",
+    "Objects"
+  ],
+  "dependencies": {
+    "d3": "^3.5.17"
+  }
+}
