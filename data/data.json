@@ -45,6 +45,18 @@
       }]
     },
     {
+      "name": "Project",
+      "children": [{
+        "name": "Information"
+      }, {
+        "name": "Request"
+      }, {
+        "name": "Letter"
+      }, {
+        "name": "Report"
+      }]
+    },
+    {
       "name": "Times",
       "children": [{
           "name": "Entry"
