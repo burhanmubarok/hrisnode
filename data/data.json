@@ -140,7 +140,13 @@
               "children": [{
                 "name": "Leave",
                 "children": [{
-                  "name": "Reimbursement"
+                  "name": "Reimbursement",
+                  "children": [{
+                    "name": "Loan",
+                    "children": [{
+                      "name": "Others"
+                    }]
+                  }]
                 }]
               }]
             }]
